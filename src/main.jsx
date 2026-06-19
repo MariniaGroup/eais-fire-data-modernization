@@ -331,4 +331,8 @@ function Field({ type = 'text', name, placeholder, value, onChange, required = f
   return <input type={type} name={name} placeholder={placeholder} value={value} onChange={onChange} required={required} />;
 }
 
-export default App;
+createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
