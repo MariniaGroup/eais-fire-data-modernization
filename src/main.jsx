@@ -81,7 +81,7 @@ function App() {
     } catch (submitError) {
       console.error(submitError);
       setStatus('error');
-      setError('The form could not be submitted. Please try again or email Shani directly at shani@elevate-aisolutions.com.');
+      setError('The form could not be submitted. Please try again or contact Elevate AI Solutions directly through the website.');
     }
   };
 
@@ -277,8 +277,8 @@ function App() {
             <p>Public Safety Data Modernization | Fire Campaign</p>
           </div>
           <div>
-            <strong>Shani Sambrano</strong>
-            <p>Chief AI Officer</p>
+            <strong>Elevate AI Solutions</strong>
+            <p>Public Safety Data Modernization Team</p>
             <p>Elevate-AISolutions.com</p>
           </div>
         </div>
